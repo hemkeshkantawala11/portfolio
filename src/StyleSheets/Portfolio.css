@@ -1,0 +1,69 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    align-items: center;
+}
+.portfolio>h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 3vh;
+    text-align: center;
+    color: #FFFFFF;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+    margin-top: 3vh;
+    width: 50vw;
+}
+
+.filter-button:hover{
+    /*padding: 10px 20px;*/
+    border: 1px solid rgb(255,74,87);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter>button{
+    padding: 2vw 2vh;
+    border: none;
+    background-color: rgb(31,34,53);
+    color: rgb(255,74,87);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 90vw;
+}
+.linksC>a>img{
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.All{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.countT{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    background-color: rgb(255,74,87);
+    width: 2vw;
+    border-radius: 10px;
+}

@@ -47,7 +47,7 @@ const Navbar = () => {
                     Home
                 </a>
                 <a
-                    href="/About"
+                    href="#About"
                     className={activeLink === '/About' ? 'active' : ''}
                     onClick={() => handleLinkClick('/About')}
                 >
@@ -61,16 +61,16 @@ const Navbar = () => {
                     Skills
                 </a>
                 <a
-                    href="/Portfolio"
+                    href="#Portfolio"
                     className={activeLink === '/Portfolio' ? 'active' : ''}
                     onClick={() => handleLinkClick('/Portfolio')}
                 >
                     Portfolio
                 </a>
                 <a
-                    href="/Services"
-                    className={activeLink === '/Services' ? 'active' : ''}
-                    onClick={() => handleLinkClick('/Services')}
+                    href="/Academic"
+                    className={activeLink === '/Academic' ? 'active' : ''}
+                    onClick={() => handleLinkClick('/Academic')}
                 >
                     Services
                 </a>

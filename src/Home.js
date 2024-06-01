@@ -53,7 +53,7 @@ const Home = () => {
             <div className = "myImage">
                 <img className="moving-image" src={IMAGE} alt="Local Image"/>
             </div>
-            {/*<div className="watermark">*/}
+                {/*<div className="watermark">*/}
             {/*    <img src={WATERMARK_IMAGE} alt="Watermark" />*/}
             {/*</div>*/}
         </div>

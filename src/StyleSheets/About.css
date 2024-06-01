@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(35,38,58);
+    color: #FFF;
+}
+
+#About {
+    background-color: rgb(35,38,58);
+    text-align: center;
+}
+
+#About h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding-top: 10rem;
+}
+
+.container>p {
+    font-size: 1.5em;
+    margin: 0 auto;
+    max-width: 50vw;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+.container hr {
+    margin: 20px auto;
+}
+
+.AContent {
+    display: flex;
+    align-items: center;
+    margin-top: -8vh;
+}
+
+.AITContent {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.AImage {
+    width: 40vw;
+    height: auto;
+    margin-left: 50px;
+}
+
+.AImage img {
+    width: 40vw;
+    height: auto;
+    margin-left: 0vw;
+}
+
+.AText {
+    max-width: 55vw;
+    margin-left: -5vw;
+    text-align: left;
+    height: auto;
+    margin-top: -9vh;
+}
+
+.AText h1 {
+    font-size: 49.5em;
+    margin-bottom: 4vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5vh;
+}
+
+.text>p {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+/* Applying animations */
+.container, .AContent {
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+
+.container.in-view {
+    animation: fadeInUp 2s forwards;
+}
+
+.container.out-view {
+    animation: fadeOutDown 2s backwards;
+}
+
+.AContent.in-view {
+    animation: fadeInUp 2s forwards;
+    animation-delay: 0.5s;
+}
+
+.AContent.out-view {
+    animation: fadeOutDown 2s backwards;
+    animation-delay: 0.5s;
+}

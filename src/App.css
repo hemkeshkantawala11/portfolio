@@ -1,4 +1,13 @@
 .App {
   background-color: rgb(31,34,53);
 }
-
+.FullContent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    height: fit-content;
+    width: 100vw;
+    background-color: rgb(31,34,53);
+    margin-top: 7vh;
+    overflow: hidden;
+}
