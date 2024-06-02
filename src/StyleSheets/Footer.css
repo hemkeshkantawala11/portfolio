@@ -1,0 +1,42 @@
+/* src/StyleSheets/Footer.css */
+.footer {
+    background-color: #1e2138;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .social-icons {
+    margin-bottom: 10px;
+    ;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    margin-right: 1.4vw;
+    font-size: 2rem;
+    transition: color 0.3s;
+
+}
+
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer p span {
+    color: #ff4a57;
+    font-weight: bold;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+.social-icons a:hover .svg-inline--fa {
+    color: rgb(255, 74, 87);
+}

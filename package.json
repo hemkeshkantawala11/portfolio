@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@testing-library/jest-dom": "^6.4.5",
@@ -12,7 +13,9 @@
     "nuka-carousel": "^8.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.10.2",
     "react-scripts": "^5.0.1",
+    "react-vertical-timeline-component": "^3.6.0",
     "web-vitals": "^4.0.1"
   },
   "scripts": {

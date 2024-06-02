@@ -68,11 +68,11 @@ const Navbar = () => {
                     Portfolio
                 </a>
                 <a
-                    href="/Academic"
+                    href="#Academic"
                     className={activeLink === '/Academic' ? 'active' : ''}
                     onClick={() => handleLinkClick('/Academic')}
                 >
-                    Services
+                    Academic
                 </a>
                 <a
                     href="/Achievements"
