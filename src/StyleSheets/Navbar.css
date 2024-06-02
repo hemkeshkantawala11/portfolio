@@ -1,0 +1,70 @@
+/* Navbar.css */
+html {
+    scroll-behavior: smooth;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.image > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+    margin-top: -2.9vh;
+
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(31, 34, 53);
+    color: white;
+    padding: 1rem;
+    transition: top 0.7s;
+    z-index: 1000;
+    height: 10%;
+}
+
+.navbar.hidden {
+    top: -1000px; /* Adjust based on the height of your navbar */
+}
+
+.navbar.active {
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end; /* Align items to the start */
+    margin-right: 8vw; /* Adjust to move the links to the right */
+    width: 65%;
+    align-items: center;
+
+}
+
+.links > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 35px; /* Adjust to reduce space between links */
+    padding-bottom: 2px; /* Add padding to make space for underline */
+    transition: color 0.3s, border-bottom 0.3s; /* Smooth transition for color and underline */
+}
+
+.links > a.active {
+    color: red; /* Change color for active link */
+    border-bottom: 2px solid red; /* Underline for active link */
+}
+
+.links > a:hover {
+    color: rgb(255, 74, 87);
+}
+
+#image {
+    font-family: "Dancing Script", cursive;
+}
