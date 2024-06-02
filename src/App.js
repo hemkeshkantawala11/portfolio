@@ -9,7 +9,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 function App() {
   return (
-    <div className="App">
+    <div id = "App" className="App">
       <Navbar/>
 
         <div className="FullContent">

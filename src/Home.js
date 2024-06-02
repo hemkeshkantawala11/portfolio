@@ -29,7 +29,7 @@ const WordSwitcher = () => {
 
 const Home = () => {
     return (
-        <div className="HomeContent">
+        <div id = "Home" className="HomeContent">
             <div className="homeText">
                 <h3 style = {{color: "grey"}}>WELCOME TO MY CREATIVE JOURNEY</h3>
                 <div className="textImage">

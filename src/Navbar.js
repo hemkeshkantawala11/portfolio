@@ -33,14 +33,14 @@ const Navbar = () => {
     }, [lastScrollY]);
 
     return (
-        <nav className={`navbar ${show ? 'active' : 'hidden'}`}>
+        <nav id = "navbar" className={`navbar ${show ? 'active' : 'hidden'}`}>
             <div className="image">
-                <a href="/Home" id="image"><h1>Hemkesh.me</h1></a>
+                <a href="#App" id="image"><h1>Hemkesh.me</h1></a>
             </div>
 
             <div className="links">
                 <a
-                    href="/"
+                    href="#App"
                     className={activeLink === '/' ? 'active' : ''}
                     onClick={() => handleLinkClick('/')}
                 >
@@ -53,13 +53,13 @@ const Navbar = () => {
                 >
                     About
                 </a>
-                <a
-                    href="/Skills"
-                    className={activeLink === '/Skills' ? 'active' : ''}
-                    onClick={() => handleLinkClick('/Skills')}
-                >
-                    Skills
-                </a>
+                {/*<a*/}
+                {/*    href="/Skills"*/}
+                {/*    className={activeLink === '/Skills' ? 'active' : ''}*/}
+                {/*    onClick={() => handleLinkClick('/Skills')}*/}
+                {/*>*/}
+                {/*    Skills*/}
+                {/*</a>*/}
                 <a
                     href="#Portfolio"
                     className={activeLink === '/Portfolio' ? 'active' : ''}
@@ -74,15 +74,15 @@ const Navbar = () => {
                 >
                     Academic
                 </a>
+                {/*<a*/}
+                {/*    href="/Achievements"*/}
+                {/*    className={activeLink === '/Achievements' ? 'active' : ''}*/}
+                {/*    onClick={() => handleLinkClick('/Achievements')}*/}
+                {/*>*/}
+                {/*    Achievements*/}
+                {/*</a>*/}
                 <a
-                    href="/Achievements"
-                    className={activeLink === '/Achievements' ? 'active' : ''}
-                    onClick={() => handleLinkClick('/Achievements')}
-                >
-                    Achievements
-                </a>
-                <a
-                    href="/Contact"
+                    href="#Contact"
                     className={activeLink === '/Contact' ? 'active' : ''}
                     onClick={() => handleLinkClick('/Contact')}
                 >

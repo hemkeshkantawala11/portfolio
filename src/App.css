@@ -1,5 +1,7 @@
+
 .App {
   background-color: rgb(31,34,53);
+    scroll-behavior: smooth;
 }
 .FullContent{
     display: flex;
