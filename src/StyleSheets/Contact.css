@@ -137,7 +137,7 @@ textarea {
     background-color: rgb(39, 42, 63); /* Match the input tag background color */
     color: white;
 }
-button {
+#Send {
     background-color: rgb(31,34,53);
     color: white;
     padding: 10px 20px;
@@ -150,7 +150,7 @@ button {
     width: 7vw;
     height: 6vh;
 }
-button:hover {
+#Send:hover {
     background-color: rgb(220, 50, 70);
 }
 input {
