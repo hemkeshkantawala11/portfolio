@@ -17,7 +17,7 @@ const Academic = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{marginRight: "30vw",width: "20vw", background: 'rgb(45,47,123)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(45,47,123)' }}
-                        date="2016 - 2020"
+                        date=".  2016 - 2020"
                         iconStyle={{ background: 'rgb(255, 74, 87)', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">Secondary School Certificate</h3>
@@ -38,7 +38,7 @@ const Academic = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2020-2023"
+                        date="2020-2023  ."
                         contentStyle={{width: "20vw", background: 'rgb(45,47,123)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(45,47,123)' }}
                         iconStyle={{ background: 'rgb(255, 74, 87)', color: '#fff' }}
@@ -66,7 +66,7 @@ const Academic = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2023-Present"
+                        date=".  2023-Present"
                         contentStyle={{width: "20vw", background: 'rgb(45,47,123)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(45,47,123)' }}
                         iconStyle={{ background: 'rgb(255, 74, 87)', color: '#fff' }}
